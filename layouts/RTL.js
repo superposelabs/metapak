@@ -26,7 +26,7 @@ export default function RTL(props) {
   // states and functions
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [miniActive, setMiniActive] = React.useState(false);
-  const [image, setImage] = React.useState(require("assets/img/sidebar-2.jpg"));
+  const [image, setImage] = React.useState(require("assets/img/sidebar-1.jpg"));
   const [color, setColor] = React.useState("white");
   const [bgColor, setBgColor] = React.useState("black");
   const [fixedClasses, setFixedClasses] = React.useState("dropdown");
