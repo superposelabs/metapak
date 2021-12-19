@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+$bg-color: #333;
+$bl-color: #22BAD9;
+
+.typewriter {
+    font-family: "'Orbitron', sans-serif";
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: $bl-color;
+  }
+.typewriter-ai {
+    color: "#ff17e1";
+  }
+
+.Typewriter__cursor {
+font-weight: 200;
+color: "#4FAA6F";
+}
+
+.typewriter-cursor {
+      padding-left: 2px;
+      font-weight: bold;
+      font-size: 1.5em;
+      text-decoration: underline;
+      font-family: "'Orbitron', sans-serif";
+        
+        color: $bl-color;
+        animation-name: blinker;
+        animation-duration: 0.7s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        
+        @keyframes blinker {
+            0% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1.0; }
+        }
+}

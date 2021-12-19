@@ -1,0 +1,37 @@
+
+.codePenMain {
+    background-color: "#ececec";
+    border: "1px solid #ccc";
+    border-radius: "4px 0 4px 0";
+    color: "#3B3C3E";
+    font-size: "12px";
+    font-weight: "normal";
+    left: "-1px";
+    padding: "5px 10px";
+    height: "320px";
+    line-height: "1.2em";
+    overflow: "scroll";
+    overflow-x: "scroll";
+    scrollbar-color: "rebeccapurple green";
+    scrollbar-width: "10px";
+}
+
+/* width */
+.codePenMain::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .codePenMain::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .codePenMain::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .codePenMain::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
