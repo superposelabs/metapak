@@ -8,10 +8,10 @@ import Switch from "@material-ui/core/Switch";
 
 import styles from "assets/jss/nextjs-material-dashboard-pro/customCheckboxRadioSwitch.js";
 
-import imagine1 from "assets/img/sidebar-1.jpg";
-import imagine2 from "assets/img/sidebar-1.jpg";
-import imagine3 from "assets/img/sidebar-1.jpg";
-import imagine4 from "assets/img/sidebar-1.jpg";
+import imagine1 from "assets/img/sidebar.jpg";
+import imagine2 from "assets/img/sidebar.jpg";
+import imagine3 from "assets/img/sidebar.jpg";
+import imagine4 from "assets/img/sidebar.jpg";
 
 import Button from "components/CustomButtons/Button.js";
 
