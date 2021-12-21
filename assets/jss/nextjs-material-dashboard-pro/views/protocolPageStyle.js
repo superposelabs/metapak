@@ -113,7 +113,7 @@ import {
         color: blackColor,
         backgroundColor: whiteColor,
     },
-    metapakIcon: {
+    morselIcon: {
         padding:"0",
         paddingRight:"10px",
         margin:"0px",
@@ -122,14 +122,14 @@ import {
         display: "block",
         textAlign: "right",
     },
-    metapakLogo: {
+    morselLogo: {
         padding:"0px",
         margin:"0px",
         width: "70%",
         float: "left",
         display: "block",
     },
-    metapakTitle: {
+    morselTitle: {
         marginTop: "0px",
         fontFamily: "'Orbitron', sans-serif",
         fontWeight: "800",

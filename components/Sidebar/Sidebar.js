@@ -440,7 +440,7 @@ function Sidebar(props) {
         href="/"
         className={logoNormal}
       >
-        <img src={require("assets/img/logo-metapak.png")} alt="metapak" className={classes.logo} style={{width:"90%", margin:"auto"}} />
+        <img src={require("assets/img/logo-morsel.png")} alt="morsel logo" className={classes.logo} style={{width:"90%", margin:"auto"}} />
       </a>
     </div>
   );

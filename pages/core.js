@@ -15,7 +15,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Parallax from "components/Parallax/Parallax.js";
 import Button from "components/CustomButtons/Button.js";
-import MetapakUpload from "components/CustomUpload/MetapakUpload.js";
+import MorselUpload from "components/CustomUpload/MorselUpload.js";
 
 import GLOBE from 'vanta/dist/vanta.globe.min'
 // Make sure window.THREE is defined, e.g. by including three.min.js in the 
@@ -98,7 +98,7 @@ const codeDisplayOld =
 
 const codeDisplay = 
 `{
-    "protocol": "metapak",
+    "protocol": "morsel",
     "version": "0.1.0",
     "classification": "Identifies the type of object.",
     "_blockchain": "Ethereum",
@@ -106,11 +106,11 @@ const codeDisplay =
     "_contractAddress":"Identifies the address of the contract that manages the NFT",
     "_tokenId": "The identifier for an NFT typically represented as uint256 (eip-721)",
     "_creatorAddress": "The address for the creator of the NFT.",
-    "ownerAddress": "The address of the owner of the NFT at the time of the metapak creation. Validated by Oracle.",
-    "approvedAddress": "Approved address at the time of the metapak creation. Validated by Oracle.",
-    "operatorAddress": "The operator (dAPP) that created the metapak. This also should be an operator on the blockchain (ETH) at the time, which are typically marketplaces. Validated by Oracle.",
+    "ownerAddress": "The address of the owner of the NFT at the time of the morsel pack creation. Validated by Oracle.",
+    "approvedAddress": "Approved address at the time of the morsel pack creation. Validated by Oracle.",
+    "operatorAddress": "The operator (dAPP) that created the morsel pack. This also should be an operator on the blockchain (ETH) at the time, which are typically marketplaces. Validated by Oracle.",
     "_guti": "Globally unique token identifier (_blockchain, _contractAddress, _tokenId)",
-    "_metapakHash": "Hash of metadata",
+    "_morselHash": "Hash of metadata",
     "sig": "The signature of signed metadata",
     "collection": "",
     "ERC721": {
@@ -159,7 +159,7 @@ const codeDisplay =
     <div style={{width:"100vw",maxWidth:"100vw",overflowY:"hidden"}}>
     <div ref={vantaRef}>
         <Parallax 
-            // image={require("assets/img/metapak_bg.jpg")}
+            // image={require("assets/img/morsel_bg.jpg")}
             className={classes.parallax}
         >
             <div className={classes.container}>
@@ -281,7 +281,7 @@ const codeDisplay =
       
         <div style={{minHeight:"20vh"}}></div>
                 {/* <Hidden smDown>
-                    <MetapakUpload />
+                    <MorselUpload />
                 </Hidden> */}
         </div>
 
@@ -332,10 +332,10 @@ const codeDisplay =
             <h1 className={classes.gridTitle}>
                 Create, Host and Extend your NFT Metadata
             </h1>
-            <h2 className={classes.gridSubTitle}>Extend NFT Metadata Using Metapak Archives</h2>
+            <h2 className={classes.gridSubTitle}>Extend NFT Metadata Using Morsel Archives</h2>
             <h4 className={classes.description}>
                 NFTs shouldn't have to be static. They can evolve over time while maintaining their provenance. 
-                Metapak archives are portable files that can be used to encapsulate any NFT minted on any blockchain and sold on any marketplace. 
+                Morsel archives are portable files that can be used to encapsulate any NFT minted on any blockchain and sold on any marketplace. 
             </h4>
             <div className={classes.paddingTop15}></div>
             {/* <Button round color="primary">Coming Soon</Button> */}
@@ -386,7 +386,7 @@ const codeDisplay =
             <h3 className={classes.gridSubTitle}>Prepare your NFTs for the Metaverse</h3>
             <h4 className={classes.description}>
                 Owners, creators, metaverse operators and even third-parties can provide 
-                interactions with NFTs via metapak updates. The <a href="/protocol">metapak protocol</a>
+                interactions with NFTs via morsel updates. The <a href="/protocol">morsel protocol</a>
                 {' '}preserves provenance, provides role-based mechanisms, and ensures the right information gets to all interested parties. 
             </h4>
         </GridItem>

@@ -37,9 +37,9 @@ function Docs(props) {
         <div style={{minHeight:"60vh"}} className={classes.container}>
         <GridContainer>
             <GridItem xs={12} sm={12} md={8}>
-                <h1 className={classes.heroTitle}>Metapak Docs</h1>
+                <h1 className={classes.heroTitle}>Morsel Docs</h1>
                 <h3 className={classes.heroSubTitle}>
-                    Developer docs will be released upon publishing of the Metapak whitepaper.
+                    Developer docs will be released upon publishing of the Morsel whitepaper.
                 </h3>
                 <Button round color="primary">Coming Soon</Button>
                 <div><br /><br /></div>

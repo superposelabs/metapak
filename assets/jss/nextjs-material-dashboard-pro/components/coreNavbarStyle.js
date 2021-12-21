@@ -58,8 +58,8 @@ import {
       },
     },
     logo: {
-      width: "200px",
-      height: "43px",
+      width: "220px",
+      height: "53px",
       margin: "0px",
       marginTop: "0px", 
       float:"left",

@@ -64,7 +64,7 @@ export default class MyApp extends App {
       <React.Fragment>
         <Head>
 
-        <title>Metapak</title>
+        <title>Morsel</title>
 
             <meta charSet="utf-8" />
             {/* <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" /> */}
@@ -77,34 +77,38 @@ export default class MyApp extends App {
             <meta name="apple-mobile-web-app-status-bar-style" content="black" />
             <meta name="format-detection" content="telephone=no" />
 
-            <meta property="og:title" content="Metapak"/>
-            <meta name="description" content="Metapak is a decentralized protocol for metadata management in the metaverse." />
+            <meta property="og:title" content="Morsel"/>
+            <meta name="description" content="Morsel is a decentralized protocol for metadata management in the metaverse." />
             <meta property="og:url" content={DOMAIN_URL} />
-            <meta property="og:site_name" content="Metapak"/>
+            <meta property="og:site_name" content="Morsel"/>
             <meta property="og:description" content="A metaverse platform."/>
-            <meta property="og:image" content={require("assets/img/metapak-preview.png")} />
-            <meta property="twitter:image" content={require("assets/img/metapak-preview.png")} />
+            <meta property="og:image" content={require("assets/img/morsel-preview.png")} />
+            <meta property="twitter:image" content={require("assets/img/morsel-preview.png")} />
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="msapplication-TileColor" content="#000000" />
-            <meta name="msapplication-TileImage" content={require("assets/img//ms-icon-144x144.png")} />
 
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
             <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Space+Grotesk:wght@300;500;600;700&family=Orbitron:wght@400;600;800;900&display=swap" rel="stylesheet" />
 
 
+            <link rel="apple-touch-icon" sizes="57x57" href={require("assets/img/apple-icon-57x57.png")} />
+            <link rel="apple-touch-icon" sizes="60x60" href={require("assets/img/apple-icon-60x60.png")} />
             <link rel="apple-touch-icon" sizes="72x72" href={require("assets/img/apple-icon-72x72.png")} />
-            <link rel="apple-touch-icon" sizes="96x96" href={require("assets/img/apple-icon-96x96.png")} />
+            <link rel="apple-touch-icon" sizes="76x76" href={require("assets/img/apple-icon-76x76.png")} />
+            <link rel="apple-touch-icon" sizes="114x114" href={require("assets/img/apple-icon-114x114.png")} />
+            <link rel="apple-touch-icon" sizes="120x120" href={require("assets/img/apple-icon-120x120.png")} />
             <link rel="apple-touch-icon" sizes="144x144" href={require("assets/img/apple-icon-144x144.png")} />
-            <link rel="apple-touch-icon" sizes="192x192" href={require("assets/img/apple-icon-192x192.png")} />
-            <link rel="icon" type="image/png" sizes="192x192"  href={require("assets/img/android-chrome-192x192.png")} />
+            <link rel="apple-touch-icon" sizes="152x152" href={require("assets/img/apple-icon-152x152.png")} />
+            <link rel="apple-touch-icon" sizes="180x180" href={require("assets/img/apple-icon-180x180.png")} />
+            <link rel="icon" type="image/png" sizes="192x192"  href={require("assets/img/android-icon-192x192.png")} />
             <link rel="icon" type="image/png" sizes="32x32" href={require("assets/img/favicon-32x32.png")} />
             <link rel="icon" type="image/png" sizes="96x96" href={require("assets/img/favicon-96x96.png")} />
             <link rel="icon" type="image/png" sizes="16x16" href={require("assets/img/favicon-16x16.png")} />
-            <link rel="icon shortcut" href={require("assets/img/favicon.ico")} type="image/x-icon" />
             <link rel="manifest" href={require("assets/img/manifest.json")} />
-            
-            {/* <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> */}
+            <meta name="msapplication-TileColor" content="#ffffff" />
+            <meta name="msapplication-TileImage" content={require("assets/img/ms-icon-144x144.png")} />
+            <meta name="theme-color" content="#ffffff" />
+                        
         </Head>
         <Layout>
           <Component {...pageProps} />

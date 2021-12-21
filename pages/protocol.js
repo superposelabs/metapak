@@ -15,7 +15,7 @@ import Hidden from "@material-ui/core/Hidden";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
-import MetapakUpload from "components/CustomUpload/MetapakUpload.js";
+import MorselUpload from "components/CustomUpload/MorselUpload.js";
 
 // hash function
 import jsSHA from "jssha";
@@ -63,7 +63,7 @@ function Protocol(props) {
         </div>
       
             {/* <Hidden smDown>
-                <MetapakUpload />
+                <MorselUpload />
             </Hidden> */}
 
             <div style={{width:"100%", 

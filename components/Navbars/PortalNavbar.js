@@ -131,7 +131,7 @@ export default function PortalNavBar(props) {
       <Toolbar className={classes.container}>
           <div className={classes.flex}>
             <Button href="/" className={classes.logo} color="transparent">
-                <img src={require("assets/img/logo-metapak.png")} alt="metapak logo" className={classes.logo} />
+                <img src={require("assets/img/logo-morsel.png")} alt="morsel logo" className={classes.logo} />
             </Button>
           </div>
         <Hidden smDown>{list}</Hidden>
